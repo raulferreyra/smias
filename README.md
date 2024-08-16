@@ -19,14 +19,10 @@ The Lima Metropolitano faces significant challenges due to the lack of units at 
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The predictive system is designed to be used by operators of the Lima Metropolitano. The solution is implemented in real time, allowing operators to monitor and adjust the distribution of transport units based on passenger demand on different routes and stations. Operators can quickly identify the need for additional units at critical points, prioritize emergencies such as broken buses, and optimize routes to improve overall service efficiency. In addition, a review and modification of station entrances and exits is required to obtain accurate data on the flow of pedestrian passengers, which is essential to identify and address the real needs of users.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+###El Metropolitano
+![Cat]([https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg](https://scontent.flim2-1.fna.fbcdn.net/v/t31.18172-8/27021867_1059219784219736_4647830421122505517_o.jpg?_nc_cat=108&ccb=1-7&_nc_sid=13d280&_nc_ohc=cX_llKdVoZYQ7kNvgH6OSOB&_nc_ht=scontent.flim2-1.fna&oh=00_AYC48s4VsTN48NVEmq9jEOBF5yqtKYahI-7jy5f81At_hA&oe=66E613A4))
 
 This is how you create code examples:
 ```
