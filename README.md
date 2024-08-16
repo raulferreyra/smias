@@ -127,18 +127,28 @@ Although the project proposes an innovative solution to predict and optimize bus
 * When working with sensitive and personal data, such as user mobility patterns, it is crucial to ensure the privacy and security of the information. In addition, there is a risk of data bias, which could lead to suboptimal decisions that negatively affect certain groups of users, for example, if routes in less-traveled areas receive less attention.
 * Furthermore, the implementation of a predictive system could have unintended consequences, such as over-reliance on predictions, which could lead to neglect of other qualitative factors that cannot be captured in a quantitative model.
 
-### Conclusion
-The project poses a promising solution to improve the efficiency of the Metropolitano, but faces significant challenges related to unpredictable user behavior, unforeseen events, and lack of reliable data. Ethical consideration of these challenges will be key to ensuring that the implementation of the system is fair, equitable, and beneficial to all users.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+Despite initial challenges, such as lack of a team, limited expertise, bureaucracy, and political barriers, there are opportunities to advance the implementation of this project.
 
+1. Academic Support:
+* University Collaboration: Take advantage of the resources available at the university, such as laboratories, equipment, and support from professors. Integrating the project into a research program or thesis could provide access to advanced tools and specialized knowledge.
+* Networking and University PR: Use the academic network and events organized by the university to present the idea to influential people. This could open doors to possible collaborations with the public or private sector.
 
-## Acknowledgments
+2.Prototype Development:
+* Pilot Project: With the help of professors and classmates, develop a functional prototype in a controlled environment, such as a specific route of the Metropolitano. This pilot could serve as a proof of concept to demonstrate the viability of the system and its positive impact.
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+3. Seek Funding and Partnerships:
+* Grants and Scholarships: Research and apply for grants or scholarships for innovative projects in the area of ​​transportation and technology. Universities often have access to research and development funds that could be used for this project.
+* Private Sector Partnerships: Identify technology companies or startups interested in developing solutions for public transportation and propose a collaboration to bring the project to reality.
+
+4. Communication and Awareness Strategy:
+* Awareness Campaign: Develop a communication strategy that highlights the benefits of the predictive system to improve public transportation. By engaging the community and generating public interest, you can pressure policymakers to support the implementation of the system.
+
+5. Continuing Education:
+* Professional Development: Continue to expand your knowledge in artificial intelligence, big data, and predictive analytics through additional courses, certifications, and hands-on projects. This will not only strengthen the project, but also increase your credibility and ability to lead it.
+
+6. Navigating the Bureaucracy:
+* Legal and Administrative Advice: Seek the support of law students or professors who can offer advice on how to navigate the bureaucracy and regulations related to public transport. This support could make it easier to overcome administrative and political obstacles.
+
