@@ -113,7 +113,22 @@ This approach seeks to develop a soft AI-based predictive system using artificia
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Although the project proposes an innovative solution to predict and optimize bus demand in the Lima Metropolitan, there are several limitations and challenges that cannot be effectively addressed by this system. These challenges must be considered for a realistic and ethical implementation.
+
+1. Unexpected User Behavior:
+* The model cannot predict the unpredictable behavior or "liveliness" of users who, for example, decide to travel to the last station just to secure a seat on an empty bus. This type of behavior does not follow regular patterns and is difficult to model accurately.
+2. Personal User Preferences:
+* The system cannot anticipate users who prioritize convenience over speed. Some users may prefer to wait longer for an empty bus rather than take the first available bus, even if this entails a longer travel time. These decisions are subjective and not based on consistent patterns.
+3. External and Unforeseen Events:
+* External factors such as demonstrations, accidents, or unexpected road closures cannot be predicted by the model. These events can significantly alter bus demand and distribution, creating scenarios where prediction based on historical data becomes ineffective.
+4. Limitations of Current Data:
+* The project faces a major challenge related to the lack of accurate and transparent data from the current system. The absence of a detailed history of user movements and preferences means that the initial model must rely on data cross-referenced with other sources, such as censuses or mobility surveys, which might not fully reflect the reality of the system.
+5. Ethical Considerations:
+* When working with sensitive and personal data, such as user mobility patterns, it is crucial to ensure the privacy and security of the information. In addition, there is a risk of data bias, which could lead to suboptimal decisions that negatively affect certain groups of users, for example, if routes in less-traveled areas receive less attention.
+* Furthermore, the implementation of a predictive system could have unintended consequences, such as over-reliance on predictions, which could lead to neglect of other qualitative factors that cannot be captured in a quantitative model.
+
+### Conclusion
+The project poses a promising solution to improve the efficiency of the Metropolitano, but faces significant challenges related to unpredictable user behavior, unforeseen events, and lack of reliable data. Ethical consideration of these challenges will be key to ensuring that the implementation of the system is fair, equitable, and beneficial to all users.
 
 ## What next?
 
