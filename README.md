@@ -9,17 +9,12 @@ Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+This project will develop an artificial intelligence predictive system to optimize the distribution of Metropolitano units in Lima, Peru, using cross-data on passenger flow on different routes and key stops. 
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+The Lima Metropolitano faces significant challenges due to the lack of units at strategic points, which causes an inefficient service. This problem is common and affects thousands of users daily. My personal motivation arises from the need to improve public transportation in my city, providing a solution that optimizes the distribution of buses based on the actual flow of passengers. This issue is crucial to improve the quality of life of citizens and make an essential transportation system more efficient. In this way and with the collection of new data, routes could be improved by adding stops that are created possible and/or completely changing a route that benefits users.
 
 
 ## How is it used?
