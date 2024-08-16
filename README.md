@@ -24,22 +24,52 @@ The predictive system is designed to be used by operators of the Lima Metropolit
 ### El Metropolitano
 ![Metropolitano](https://scontent.flim2-1.fna.fbcdn.net/v/t31.18172-8/27021867_1059219784219736_4647830421122505517_o.jpg?_nc_cat=108&ccb=1-7&_nc_sid=13d280&_nc_ohc=cX_llKdVoZYQ7kNvgH6OSOB&_nc_ht=scontent.flim2-1.fna&oh=00_AYC48s4VsTN48NVEmq9jEOBF5yqtKYahI-7jy5f81At_hA&oe=66E613A4)
 
-This is how you create code examples:
+This is only Example:
 ```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
+import numpy as np
+import pandas as pd
 
-   totPop = sum(pop)
-   totFish = sum(fishers)
+# Definir estaciones y rutas
+estaciones = [f'Estación {i}' for i in range(1, 11)]
+rutas = ['Ruta 1', 'Ruta 2', 'Ruta 3']
 
-   # write your solution here
+# Generar datos de usuarios
+np.random.seed(42)
+datos_usuarios = []
 
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+for i in range(100):  # Generar datos para 100 usuarios
+    estacion_origen = np.random.choice(estaciones[:-3])  # No pueden subir en las últimas 3 estaciones
+    estacion_destino = np.random.choice(estaciones[estaciones.index(estacion_origen)+3:])  # Destino a mínimo 3 estaciones de distancia
+    ruta = np.random.choice(rutas)
+    datos_usuarios.append([estacion_origen, estacion_destino, ruta])
 
-main()
+# Crear DataFrame
+df_usuarios = pd.DataFrame(datos_usuarios, columns=['Origen', 'Destino', 'Ruta'])
+
+# Mostrar datos generados de usuarios
+print("Datos generados de usuarios:\n", df_usuarios.head(), "\n")
+
+# Contar la demanda por ruta
+demanda_ruta = df_usuarios['Ruta'].value_counts()
+
+# Distribución inicial (15 vehículos distribuidos uniformemente)
+vehiculos_por_ruta = {'Ruta 1': 5, 'Ruta 2': 5, 'Ruta 3': 5}
+
+# Ajustar la distribución de vehículos según la demanda
+total_vehiculos = 15
+nueva_distribucion = (demanda_ruta / demanda_ruta.sum() * total_vehiculos).round().astype(int)
+
+# Asegurar que la suma total de vehículos sea igual a 15
+diferencia = total_vehiculos - nueva_distribucion.sum()
+if diferencia != 0:
+    # Ajustar la ruta con mayor demanda o menor número de vehículos
+    index = nueva_distribucion.idxmax() if diferencia > 0 else nueva_distribucion.idxmin()
+    nueva_distribucion[index] += diferencia
+
+# Imprimir resultados
+print("Demanda por ruta:\n", demanda_ruta)
+print("\nDistribución inicial de vehículos por ruta:\n", vehiculos_por_ruta)
+print("\nNueva distribución de vehículos basada en la demanda:\n", nueva_distribucion.to_dict())
 ```
 
 
