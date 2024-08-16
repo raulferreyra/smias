@@ -136,7 +136,7 @@ Despite initial challenges, such as lack of a team, limited expertise, bureaucra
 * University Collaboration: Take advantage of the resources available at the university, such as laboratories, equipment, and support from professors. Integrating the project into a research program or thesis could provide access to advanced tools and specialized knowledge.
 * Networking and University PR: Use the academic network and events organized by the university to present the idea to influential people. This could open doors to possible collaborations with the public or private sector.
 
-2.Prototype Development:
+2. Prototype Development:
 * Pilot Project: With the help of professors and classmates, develop a functional prototype in a controlled environment, such as a specific route of the Metropolitano. This pilot could serve as a proof of concept to demonstrate the viability of the system and its positive impact.
 
 3. Seek Funding and Partnerships:
