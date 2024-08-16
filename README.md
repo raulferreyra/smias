@@ -74,14 +74,42 @@ print("\nNueva distribución de vehículos basada en la demanda:\n", nueva_distr
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+In order to propose a system that allows predicting weekly the need for buses in the Lima Metropolitan area according to the routes, it is essential to develop a predictive model based on artificial intelligence (AI). Below, I detail the key aspects of this proposal.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+### General Approach
+Objective: Develop a system that, using historical user data, predicts the demand for buses on different routes to optimize vehicle distribution and improve service efficiency.
+
+### Type of AI
+Soft AI: In this case, we will use soft AI techniques, since the objective is to create models that can learn from data and make predictions without needing to replicate human cognition. Soft AI focuses on automating complex processes and improving data-driven decision making, without trying to simulate full human reasoning.
+
+### Predictive Model
+For this project, an Artificial Neural Network (ANN) model will be used due to its ability to handle large volumes of data and capture complex patterns in them. In particular, a dense neural network with several hidden layers could be used to perform the weekly bus demand prediction on each route.
+
+### Tools and Technologies
+TensorFlow: This is one of the most popular libraries for building and training neural networks. It offers flexibility and efficiency to handle large amounts of data and can be easily scaled for this type of project.
+Training Method
+Supervised Training:
+
+* Training Data: We will use historical user flow data, such as the origin and destination points of trips, peak demand times, days of the week, special events, etc. This data is labeled to train the model to predict future demand.
+* Loss Function: A mean squared error (MSE) method could be used as the loss function, since it is common in regression problems and penalizes large deviations in predictions.
+* Optimization: We will use optimization algorithms such as Adam or SGD (Stochastic Gradient Descent) to adjust the weights of the neural network and minimize the loss function.
+
+### Neural Networks
+* Architecture:
+Input Layers: Input data such as user characteristics (origin, destination, time, day of the week).
+Hidden Layers: Several dense layers (fully connected) with ReLU activations to capture non-linearities in the data.
+Output Layer: A neuron representing the bus demand prediction for a specific route.
+Validation and Testing
+Cross-Validation: We will use cross-validation techniques to evaluate the model's performance and avoid overfitting. The data will be split into training, validation, and test sets to ensure that the model generalizes well to unseen data.
+
+* Implementation and Deployment
+Real-Time Predictions: Once trained, the model can be deployed in a production environment where it receives real-time data and makes weekly predictions about bus demand. These predictions can be presented to the Metro operators through an interactive dashboard.
+
+* Maintenance and Continuous Improvement
+Retraining: The model will need to be periodically retrained with new data to stay up to date and reflect changes in the Metropolitano's usage patterns.
+
+### Summary
+This approach seeks to develop a soft AI-based predictive system using artificial neural networks implemented in TensorFlow. Through the use of historical data and supervised training methods, it will be possible to anticipate bus demand and optimize their distribution efficiently. This will not only improve the user experience, but will also allow the Lima Metropolitano to operate more effectively and profitably.
 
 ## Challenges
 
